@@ -1,0 +1,363 @@
+/****************chat******************/
+.me{
+    background: lightblue;
+    padding: 5px 0 0 20px;
+    margin: 10px 0 5px  180px;
+    border-radius: 3px;
+    position: relative;
+    font-size: 13px;
+}
+
+.me:after{
+    content: "";
+    border-right: none;
+    top: 5px;
+    border-left: 10px solid lightblue;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    right: -10px;
+
+}
+
+
+.you{
+    background: navy;
+    color: white;
+    padding: 5px 0 0 20px;
+    margin: 10px 180px  5px  0;
+    border-radius: 3px;
+    position: relative;
+}
+
+.you:before{
+    content: "";
+    border-left: none;
+    border-right: 10px solid navy;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    font-size: 13px;
+}
+
+
+
+.you{
+    background: navy;
+    color: white;
+    padding: 5px 0 0 20px;
+    margin: 10px 180px  5px  0;
+    border-radius: 3px;
+    position: relative;
+}
+
+.you:before{
+    content: "";
+    border-left: none;
+    border-right: 10px solid navy;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    font-size: 13px;
+}
+
+/***********************/
+.welcome{
+    font-family:Georgia, "Times New Roman", Times, serifva, sans-serif;
+
+}
+.loginbody {
+    background-color:#666;
+    font-family: 'Arial', sans-serif;
+}
+
+.login {
+    padding: 40px;
+    background-color: #F7F7F7;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.login h1 {
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+.login input[type=submit] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.login input[type=text], input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.login input[type=text]:hover, input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login-btn {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    height: 36px;
+    padding: 0 8px;
+
+}
+
+.login-btn-submit {
+    border: 0px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #ce4844;
+}
+
+.login-btn-submit:hover {
+    border: 0px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background-color: #953b39;
+}
+
+.login a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity ease 0.5s;
+}
+
+.login a:hover {
+    opacity: 1;
+}
+
+.logincopyright{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    margin-top: 20px;
+}
+.signoutbutton{
+    margin-bottom:5px;
+    margin-right:5px;
+}
+
+/******************* Dashboard ***********************/
+
+.notifications{
+    text-align:right;
+
+    margin-bottom:0px;
+    padding-bottom:0px;
+    padding-top: 45px;}
+
+.header{
+    background-color: #Ffffff;
+    border-color:#7be74a;
+    border-style:solid;
+    border-width:0px 0px thin 0px ;
+
+}
+.breadcrumbs{
+    margin-top: 20px;
+}
+
+.nav-tabs{
+    margin-top: 20px;
+}
+div#contentdiv{
+    min-height: 250px;
+    padding-bottom: 20px;
+
+}
+div#footer{
+    text-align: center;
+    font-style: italic;
+
+}
+
+.session{
+    text-align: left;
+    padding-top: 40px;
+
+
+}
+.dash{
+    text-align: center;
+    font-size: 32px;
+
+}
+
+#msg{
+    text-align: center; color: red; margin-bottom: 10px;
+
+}
+
+.ali{text-align: center}
+
+/******************* left menu  ***********************/
+
+.leftsidebar {
+    background-color:#ffffff;
+    height:100%;
+    min-height: 200px;/*pr*/
+    border-top: 0;/*pr*/
+
+    text-align:left;
+    padding-bottom: 10px;
+    float:left;
+    margin-top:52px;
+
+}
+
+#profilepic{
+    margin-top:0px;/*pr 20*/
+    width:75px;
+    height:75px;
+    margin-left:50px;
+}
+
+#profilename{
+    text-align:center;
+    margin-top:20px;/*pr 5*/
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:14px;
+}
+#profilerole{
+    margin-top:20px;/*pr 5*/
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:12px;
+    text-align:center;
+    margin-bottom: 20px;/*pr */
+}
+#button {
+    margin-top:50px;
+    width: 12em;
+
+    padding: 0 0 1em 1em;
+    margin-bottom: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
+
+}
+
+#button ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+#button li {
+    /*border-bottom: 1px solid #90bade;*/
+    margin: 0;
+    list-style: none;
+    list-style-image: none;
+    padding-bottom:3px;
+
+}
+
+#button li a {
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    border-left: 2px solid #d7d8da;
+    /*border-right: 10px solid #508fc4;*/
+    background-color: #ffffff;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    color: #848889;
+}
+
+html>body #button li a {
+    width: auto;
+}
+
+#button li a:hover {
+    border-left: 2px solid #890908;
+    /*border-right: 10px solid #5ba3e0;*/
+    background-color: #f6f6f6;
+    color: #890908;
+}
+
+span{
+    color: red;
+}
+
+/*********countdown***********/
+
+ul.countdown {
+    list-style: none;
+    margin: 100px 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+ul.countdown li { display: inline-block; }
+
+ul.countdown li span {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 80px;
+    padding: 0 20px;
+    border-top: 1px solid #C0392B;
+    border-bottom: 1px solid #C0392B;
+    margin-left: -4px;
+}
+
+ul.countdown li p {
+    color: #a7abb1;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.days {
+    background-color: #C0392B;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.last { border-right: 1px solid #C0392B; }
+
+.member_list{
+    border-right: 1px solid #848889;
+
+
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
